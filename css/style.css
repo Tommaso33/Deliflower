@@ -1,3 +1,4 @@
+/*CSS*/
 
 body	{
 	background: #FFFFFF; ;
@@ -58,6 +59,9 @@ a {
 	text-align: center;
 }
 
+
+
+
 /* card */
 .card {
 	background-color: white;
@@ -69,6 +73,7 @@ a {
 	background-color: ##E8DED2;
 	width: 400px ;
 	height: 65px;
+
 }
 
 .big-card {
@@ -111,3 +116,120 @@ nav {
 	padding: 0 20px;
 }
 
+
+
+/*CSS FOR EVENTS PAGE*/
+
+/* GENERAL */
+
+.PostalCode p{
+
+	position: absolute;
+	width: 355px;
+	height: 38px;
+	margin-left: 20px;
+	margin-top: 100px;
+}
+
+.TypeEvent p{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 175px;
+}
+
+
+
+
+/*CSS FOR REGISTERING PAGE*/
+
+
+body{
+	background-image: url("images/background.png");
+}
+
+
+
+#logo{
+	position: absolute;
+	width: 202px;
+	height: 106px;
+	margin-top: 5px;
+}
+
+h1{
+	position: absolute;
+	font-family: Indie Flower;
+	font-size: 72px;
+	font-weight: 400;
+	margin: 200px 0px 0px 10px;
+}
+
+/*Form*/
+
+
+.CreateAccount{
+	font-family: Roboto;
+	position: absolute;
+	width: 712px;
+	height: 761px;
+	margin-left: 416px;
+	margin-top: 109px;
+}
+
+h3{
+	font-weight: bold;
+	position: absolute;
+	width: 355px;
+	height: 34px;
+	margin-left: 276px;
+    margin-top: 20px;
+
+}
+form{
+	margin: 60px 0 20px 0;
+
+}
+
+label{
+	font-size: 24px;
+	margin-left: 90px;
+	color: black;
+	text-align: center;
+}
+
+input[type="text"]{
+	padding: 10px;
+	font-size: 24px;
+	margin-left: 360px;
+	border: 2px solid #ddd;
+	border-radius: 3px;
+	background-color: #BDBDBD;
+}
+
+.button-submit{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 11px;
+	background-color: #BDBDBD;
+	border-style: none;
+	border-radius: 3px;
+	margin-left: 375px;
+}
+
+
+/*Contact*/
+
+.Contact p{
+	font-family: Roboto;
+	position: absolute;
+	width: 484px;
+	height: 32px;
+	margin-left: 500px;
+	margin-top: 983px;
+	padding-bottom: 50px;
+}
+
+
+
+/*CSS FOR REGISTERING PAGE*/
