@@ -34,6 +34,14 @@ h3	{
 	font-weight: 500;
 }
 
+h4 {
+	font-family: "Roboto";
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
+
+}
+
 /* link */
 
 a {
@@ -44,8 +52,11 @@ a {
 	font-size: 16px;
 	}	
 
-/* link 2 */
-??
+.btn {
+	width: 200px;
+	height: 50px;
+	background-color: red;
+}
 
 
 /* btn events */
@@ -56,31 +67,160 @@ a {
 	border-radius: 0px;
 	width: 280px;
 	height: 54px;
-	text-align: center;
+	margin: 40px 0px 0px 460px;
+	float: left;
+
 }
-
-
 
 
 /* card */
-.card {
-	background-color: white;
-	padding: 0px;
+.cards{
+	margin: 10px;
+	padding: 10px;
+}
+
+
+.card-bouquets {
+	width: 400px;
+	height: 240px;
+	margin: 240px 20px 0px 20px;
+	font-family: Roboto;
+	font-size: 32px;
+	font-weight:500px;
+	text-align: left;
+	float: left;
+}
+
+.card-bouquets img{
 	width: 400px;
 	height: 240px;
 }
+
+.card-bouquets2 {
+	width: 400px;
+	height: 240px;
+	margin: 40px 0px 0px 460px;
+	font-family: Roboto;
+	font-size: 32px;
+	font-weight: 500px;
+	text-align: left;
+	float: left;
+}
+
 .text-card {
-	background-color: ##E8DED2;
-	width: 400px ;
-	height: 65px;
+	position: relative;
+	margin-top: -46px;
+	background-color: #E7DDD3
+}
+
+.TitleFlower {
+	position: absolute;
+	left: 67px;
+	top: 401px;
+}
+
+.FlowerDescription {
+	position: absolute;
+	left: 67px;
+	top: 457px;
+	width: 350px;
+}
+
+.FlowerDescription body {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: 'Roboto', serif;
+	font-size: 16px;
+	font-weight: lighter;
+	left: 67px;
+	top: 457px;
+}
+
+.info {
+	position: absolute;
+	left: 67px;
+	top: 700px;
+}
+
+.info2 {
+	position: absolute;
+	left: 67px;
+	top: 720px;
+}
+
+.info3 {
+	position: absolute;
+	left: 67px;
+	top: 740px;
+}
+
+.comments {
+	position: absolute;
+	left: 67px;
+	top: 900px;
+}
+
+.grey-comments {
+	background-color: #EDEDED;
+	color: black;
+	padding: 0px;
+	border-radius: 0px;
+	width: 356px;
+	height: 50px;
+	margin: 40px 0px 0px 460px;
+}
+
+
+.bigcard{
+	margin: 10px;
+	padding : 30px;
+}
+
+.bigcard-bouquet{
+	width: 593px;
+	height: 474px;
+	border-radius: 44px;
+	left: 652px;
+	top: 261px;
+}
+
+.bigcard-bouquet img{
+	width: 593px;
+	height: 474px;
 
 }
 
-.big-card {
-	background-color: white;
-	padding: 50% ;
-	width: 593px;
-	height: 474px;
+
+.price {
+	position: absolute;
+	left: 854px;
+	top: 735px;
+}
+
+.ratings {
+	position: absolute;
+	left: 681px;
+	top: 782px;
+}
+
+.btn-beige {
+	background-color: rgb(232, 222, 210);
+	color: #090909;
+	padding: 0px;
+	border-radius: 0px;
+	width: 280px;
+	height: 54px;
+	margin: 40px 0px 0px 460px;
+	float: left;
+	text-align: center;
+}
+
+.btn-beige a {
+	text-align: center;
+	font-family: "Roboto";
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
 }
 
 /* avatar */
@@ -116,9 +256,10 @@ nav {
 	padding: 0 20px;
 }
 
-
-
 /*CSS FOR EVENTS PAGE*/
+
+
+
 
 /* GENERAL */
 
@@ -140,14 +281,31 @@ nav {
 
 
 
-/*CSS FOR REGISTERING PAGE*/
+/* HEADER */
 
+header{
+	height: 206px;
+	background : url("images/Header.png") center;
+	width: 1368px;
+	margin-top: -10px;
+	margin-left: -10px;
+}
 
-body{
-	background-image: url("images/background.png");
+header h1{
+	font-family: Indie Flower;
+	font-size: 72px;
+	font-weight: 400;
+	margin: 10px 400px 108px 246px;
+	padding-bottom: 13px;
 }
 
 
+p { 
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 24px;
+	margin: -130px 0px 100px 246px;
+}
 
 #logo{
 	position: absolute;
@@ -156,69 +314,60 @@ body{
 	margin-top: 5px;
 }
 
-h1{
+#OrangeDot{
 	position: absolute;
-	font-family: Indie Flower;
-	font-size: 72px;
-	font-weight: 400;
-	margin: 200px 0px 0px 10px;
+	width: 48px;
+	height: 48px;
+	margin: 15px 0px 0px 1300px;
+
 }
 
-/*Form*/
 
+/* Events */
 
-.CreateAccount{
+.cards{
+	margin: 10px;
+	padding : 10px;
+
+}
+
+.Card-Event{
+	width: 400px;
+	height: 240px;
+	margin: 240px 20px 0px 20px ;
 	font-family: Roboto;
-	position: absolute;
-	width: 712px;
-	height: 761px;
-	margin-left: 416px;
-	margin-top: 109px;
-}
-
-h3{
-	font-weight: bold;
-	position: absolute;
-	width: 355px;
-	height: 34px;
-	margin-left: 276px;
-    margin-top: 20px;
-
-}
-form{
-	margin: 60px 0 20px 0;
-
-}
-
-label{
-	font-size: 24px;
-	margin-left: 90px;
-	color: black;
+	font-size: 32px;
+	font-weight: 500px;
 	text-align: center;
+	float: left;
 }
 
-input[type="text"]{
-	padding: 10px;
-	font-size: 24px;
-	margin-left: 360px;
-	border: 2px solid #ddd;
-	border-radius: 3px;
-	background-color: #BDBDBD;
-}
-
-.button-submit{
-	color: black;
-	font-size: 20px;
-	font-weight: bold;
-	padding: 11px;
-	background-color: #BDBDBD;
-	border-style: none;
-	border-radius: 3px;
-	margin-left: 375px;
+.Card-Event img{
+	width: 400px;
+	height: 240px;
 }
 
 
-/*Contact*/
+.Card-OtherEvents{
+	width: 400px;
+	height: 240px;
+	margin: 40px 0px 0px 460px ;
+	font-family: Roboto;
+	font-size: 32px;
+	font-weight: 500px;
+	text-align: center;
+	float: left;
+}
+
+.CardTitles{
+	position: relative;
+	margin-top: -46px;
+	background-color: #E7DDD3;
+}
+
+
+
+/* Contact */
 
 .Contact p{
 	font-family: Roboto;
@@ -227,9 +376,15 @@ input[type="text"]{
 	height: 32px;
 	margin-left: 500px;
 	margin-top: 983px;
-	padding-bottom: 50px;
 }
 
 
 
-/*CSS FOR REGISTERING PAGE*/
+
+
+/*CSS FOR EVENTS PAGE */
+
+
+
+
+/*CSS FOR EVENTS PAGE */
